@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cloud9</title>
+    
+    <style>
+        *{margin: 0; padding: 0;}
+        div{}
+        div img{
+            width: 100%;
+            vertical-align: top;
+        }
+        .div1{
+            position: relative;
+        }
+        h1{
+            position: absolute;
+            top: 20%; 
+            left: 50%; transform: translateX(-50%);
+        } 
+        h1 img{width:150px;}
+        h1 .img1{filter: drop-shadow(16px 16px 20px #000) }
+        h1 .img2{filter: drop-shadow(16px 16px 20px #000) }
+        h1 .img3{filter: drop-shadow(16px 16px 20px #000) }
+        h1 .img4{filter: drop-shadow(16px 16px 20px #000) }
+        h1 .img5{filter: drop-shadow(16px 16px 20px #000) }
+        h1 .img6{filter: drop-shadow(16px 16px 20px #000) }
+        h1 .img7{filter: drop-shadow(16px 16px 20px #000) }
+
+
+        h1 span{display:inline-block; width:150px; text-align:center; margin: 20px -15px;}
+        h1 span {
+                    position: relative;
+                    top: 20px;
+                    display: inline-block;
+                    animation: bounce .3s ease infinite alternate;
+                }
+
+        h1 span:nth-child(2) { animation-delay: .1s; }
+        h1 span:nth-child(3) { animation-delay: .2s; }
+        h1 span:nth-child(4) { animation-delay: .3s; }
+        h1 span:nth-child(5) { animation-delay: .4s; }
+        h1 span:nth-child(6) { animation-delay: .5s; }
+        h1 span:nth-child(7) { animation-delay: .6s; }
+        h1 span:nth-child(8) { animation-delay: .7s; }
+
+        @keyframes bounce {
+            100% {
+            top: -20px;
+            }
+        
+        }
+        h2{position: absolute; top: 50%; right: 10%;}
+
+
+        .div6{
+            position: relative;
+        }
+        .div6 span{
+            position: absolute;
+            top: 30%; left: 0;
+        }
+        .div6 span img{
+            width: 100%;
+            animation:ani 1s infinite alternate;
+        }
+        @keyframes ani{
+            0%{transform:translate(0,0);}
+            100%{transform:translate(0,200px);}
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <div class="div1"><img src="images/000_01.jpg" alt="">
+        <h1>
+            <span><img src="images/c.png" alt="" class="img1"></span>
+            <span><img src="images/l.png" alt="" class="img2"></span>
+            <span><img src="images/o.png" alt="" class="img3"></span>
+            <span><img src="images/u.png" alt="" class="img4"></span>
+            <span><img src="images/d.png" alt="" class="img5"></span>
+            <span><img src="images/9.png" alt="" class="img6"></span>
+            <span><img src="images/cel.png" alt="" class="img7"></span>
+        </h1>
+        <h2><img src="images/app.png" alt=""></h2>
+    </div>
+
+    <div class="div2"><img src="images/00_02.jpg" alt=""></div>
+    <div class="div3"><img src="images/00_03.jpg" alt=""></div>
+    <div class="div4"><img src="images/00_04.jpg" alt=""></div>
+    <div class="div5"><img src="images/00_05.jpg" alt=""></div>
+    
+    <div class="div6">
+        <img src="images/00_06.jpg" alt="">
+        <span><img src="images/emoji.png" alt=""></span>
+    </div>
+</body>
+</html>
